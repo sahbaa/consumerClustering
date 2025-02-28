@@ -1,0 +1,22 @@
+|--- debt_mordad <= 1271388.00
+|   |--- avgConsuming_shahrivar <= 18.46
+|   |   |--- avgConsuming_tir <= 23.99
+|   |   |   |--- class: Low
+|   |   |--- avgConsuming_tir >  23.99
+|   |   |   |--- debt_mordad <= 418718.00
+|   |   |   |   |--- class: Low
+|   |   |   |--- debt_mordad >  418718.00
+|   |   |   |   |--- class: High
+|   |--- avgConsuming_shahrivar >  18.46
+|   |   |--- debt_tir <= 25012.00
+|   |   |   |--- avgConsuming_tir <= 20.26
+|   |   |   |   |--- class: Low
+|   |   |   |--- avgConsuming_tir >  20.26
+|   |   |   |   |--- class: High
+|   |   |--- debt_tir >  25012.00
+|   |   |   |--- class: High
+|--- debt_mordad >  1271388.00
+|   |--- debt_tir <= 112897.50
+|   |   |--- class: High
+|   |--- debt_tir >  112897.50
+|   |   |--- class: Moderate
